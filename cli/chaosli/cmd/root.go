@@ -79,10 +79,3 @@ func initConfig() {
 		fmt.Fprintln(os.Stderr, "Using config file:", viper.ConfigFileUsed())
 	}
 }
-
-func validate(filePath string) string {
-	if filePath == "" {
-		return "No Path Given, Exiting..."
-	}
-	return "Validation TODO"
-}
